@@ -7,10 +7,6 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.engine('html', require('ejs').renderFile);
 
-app.get('/', (req, res) => {
-    res.send('Hello World');
-});
-
 app.listen(port, () => {
     console.log(`App listening on port ${port}`);
 });
