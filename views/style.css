@@ -1,0 +1,28 @@
+.background-wrap {
+  background-image: url('./image/moon.png');
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content span {
+  color: white;
+}
+
+.content span:nth-child(1) {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.content span:nth-child(2) {
+  font-size: 17px;
+}
